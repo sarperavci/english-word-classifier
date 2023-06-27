@@ -8,6 +8,9 @@ The English Word Classifier is a web application built with Python and Flask tha
 - Words are categorized based on their levels.
 - Easy-to-use web interface.
 
+## Demo
+
+Check out the live demo of the English Word Classifier application [here](https://sarperavci.com/demos/wordClassifier).
 ## Prerequisites
 
 - Python 3.6 or higher
