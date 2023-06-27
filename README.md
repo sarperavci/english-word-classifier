@@ -10,7 +10,7 @@ The English Word Classifier is a web application built with Python and Flask tha
 
 ## Demo
 
-Check out the live demo of the English Word Classifier application [here](https://sarperavci.com/demos/wordClassifier).
+Check out the live demo of the English Word Classifier application [here](https://sarperavci.com/word).
 ## Prerequisites
 
 - Python 3.6 or higher
