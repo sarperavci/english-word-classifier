@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Word Finder - Results</title>
+    <style>
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Results</h1>
+    <h2>B2 Level Words:</h2>
+    <ul>
+        {% for word in words['B2'] %}
+            <li>{{ word }}</li>
+        {% endfor %}
+    </ul>
+    <h2>C1 Level Words:</h2>
+    <ul>
+        {% for word in words['C1'] %}
+            <li>{{ word }}</li>
+        {% endfor %}
+    </ul>
+    <h2>C2 Level Words:</h2>
+    <ul>
+        {% for word in words['C2'] %}
+            <li>{{ word }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
