@@ -22,7 +22,6 @@ def search():
         b2_words = set(word.strip() for word in b2_file.readlines())
         c1_words = set(word.strip() for word in c1_file.readlines())
         c2_words = set(word.strip() for word in c2_file.readlines())
-    print(b2_words)
     # Find words from each level in the provided text
     for word in text.split():
         if word in b2_words:
